@@ -3,6 +3,7 @@ const yargs = require("yargs");
 const notes = require("./notes");
 
 // just to check github
+// added github complete
 // Customize yargs version
 yargs.version("1.1.0");
 
