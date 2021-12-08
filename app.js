@@ -2,6 +2,7 @@ const chalk = require("chalk");
 const yargs = require("yargs");
 const notes = require("./notes");
 
+// just to check github
 // Customize yargs version
 yargs.version("1.1.0");
 
@@ -11,12 +12,12 @@ yargs.command({
   describe: "Add a new note",
   builder: {
     title: {
-      describe: "Note title",
+      describe: "Note's title",
       demandOption: true,
       type: "string",
     },
     body: {
-      describe: "Note body",
+      describe: "Note's body",
       demandOption: true,
       type: "string",
     },
